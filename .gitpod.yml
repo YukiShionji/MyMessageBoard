@@ -1,4 +1,4 @@
- image: gitpod/workspace-full-vnc
+# image: gitpod/workspace-full-vnc
 
 # List the start up tasks. Learn more: https://www.gitpod.io/docs/configure/workspaces/tasks
 tasks:
