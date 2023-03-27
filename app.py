@@ -9,7 +9,7 @@ def index():
     if request.method == 'POST':
         message = request.form.get('message')
         messages.append(message)
-    return render_template('index.html', messages=messages)
+    return render_template('index.html.jinja2', messages=messages)
 
 if __name__ == '__main__':
     app.run(debug=True)
